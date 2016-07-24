@@ -168,24 +168,24 @@ function EventHorizon:InitializeClass()
 
 	-- Restoration Affinity
 
-	-- Rejuvenation + Swiftmend CD
+	-- Rejuvenation
 	self:newSpell({
 	  requiredTree = 1,
 	  stance = 0,
 	  requiredTalent = 9,
 	  playerbuff = {774,3},
-	  cooldown = 18562,
 	  auraunit = usemouseover and 'mouseover' or 'target',
 	  refreshable = true,
 	  hasted = true,
 	})
 
---	-- Regrowth
+--	-- Regrowth + Swiftmend CD
 	self:newSpell({
 	  requiredTree = 1,
 	  stance = 0,
 	  requiredTalent = 9,
 	  playerbuff = {8936,2},
+	  cooldown = 18562,
 	  auraunit = usemouseover and 'mouseover' or 'target',
 	  refreshable = true,
 	  cast = 8936,
@@ -429,24 +429,24 @@ function EventHorizon:InitializeClass()
 
 	-- Restoration Affinity
 
-	-- Rejuvenation + Swiftmend CD
+	-- Rejuvenation
 	self:newSpell({
 	  requiredTree = 2,
 	  stance = 0,
 	  requiredTalent = 9,
 	  playerbuff = {774,3},
-	  cooldown = 18562,
 	  auraunit = usemouseover and 'mouseover' or 'target',
 	  refreshable = true,
 	  hasted = true,
 	})
 
-	-- Regrowth
+	-- Regrowth + Swiftmend CD
 	self:newSpell({
 	  requiredTree = 2,
 	  stance = 0,
 	  requiredTalent = 9,
 	  playerbuff = {8936,2},
+	  cooldown = 18562,
 	  auraunit = usemouseover and 'mouseover' or 'target',
 	  refreshable = true,
 	  cast = 8936,
@@ -579,24 +579,24 @@ function EventHorizon:InitializeClass()
 
 	-- Restoration Affinity
 
-	-- Rejuvenation + Swiftmend CD
+	-- Rejuvenation
 	self:newSpell({
 	  requiredTree = 3,
 	  stance = 0,
 	  requiredTalent = 9,
 	  playerbuff = {774,3},
-	  cooldown = 18562,
 	  auraunit = usemouseover and 'mouseover' or 'target',
 	  refreshable = true,
 	  hasted = true,
 	})
 
-	-- Regrowth
+	-- Regrowth + Swiftmend CD
 	self:newSpell({
 	  requiredTree = 3,
 	  stance = 0,
 	  requiredTalent = 9,
 	  playerbuff = {8936,2},
+	  cooldown = 18562,
 	  auraunit = usemouseover and 'mouseover' or 'target',
 	  cast = 8936,
 	  refreshable = true,
@@ -671,8 +671,8 @@ function EventHorizon:InitializeClass()
 	  requiredTree = 4,
 	  stance = 0,
 	  requiredLevel = 10,
-	  cooldown = 18562,
 	  playerbuff = {8936,2},
+	  cooldown = 18562,
 	  auraunit = usemouseover and 'mouseover' or 'target',
 	  cast = 8936,
 	  hasted = true,
